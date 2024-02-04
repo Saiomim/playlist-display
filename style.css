@@ -1,0 +1,66 @@
+body{
+	background-color: #363636;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main div.greeting{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	background: transparent;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+}
+
+main nav.header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0px 15px 0px;
+}
+
+nav.header button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 15px 0px 15px;
+	padding: 10px 12px 5px 12px;
+	background: transparent;
+	border: none;
+}
+
+
+nav.header button:hover{
+	cursor: pointer;
+}
+
+nav.header button span.button-text{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14pt;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 8px;
+}
+
+main div.playlist-spotify{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	width: 800px;
+}
+
